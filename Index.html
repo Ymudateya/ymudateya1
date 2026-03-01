@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ymudateya</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo-wrapper">
+                <img src="IMG/Ymudateya_logo_transparente_3D-removebg-preview.png"
+                    alt="Ymudateya_logo_transparente_3D-removebg-preview" class="logo-img">
+                <h1 class="logo">Ymudateya</h1>
+            </div>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#propiedades">Propiedades</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Ymudateya</h2>
+            <p>Donde tus sueños se hacen realidad</p>
+            <button class="btn" onclick="scrollToFast('propiedades')">Ver Propiedades</button>
+        </div>
+    </section>
+
+    <section class="properties" id="propiedades">
+        <h2 class="section-title">Torre Jacobo </h2>
+
+        <div class="slider">
+            <button class="arrow left" onclick="prevSlide()">❮</button>
+
+            <div class="slides">
+
+                <div class="card active">
+                    <img src="IMG/1.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Casa Moderna</h3>
+                        <p>3 habitaciones • 2 baños • Piscina</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="IMG/2.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Residencia Familiar</h3>
+                        <p>4 habitaciones • 3 baños • Garaje doble</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="IMG/3.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Villa de Lujo</h3>
+                        <p>5 habitaciones • 4 baños • Vista al mar</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="IMG/4.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Residencia Familiar</h3>
+                        <p>4 habitaciones • 3 baños • Garaje doble</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="arrow right" onclick="nextSlide()">❯</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Ymudateya. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="Js/script.js"></script>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/58fa077164f23d19a89ae7d0/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+</body>
+
+</html>
